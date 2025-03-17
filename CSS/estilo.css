@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+header{
+    background-color: #0808527a;
+}
+p{
+    text-align: justify;
+}
+.grid:hover{
+    transform: translateY(-10px);
+    opacity: 1;
+    cursor: pointer;
+}
+.mapa{
+    height: 300px;
+    width: 100%;
+    border: 0;
+}
+main{
+    background-image: url(./../Images/PIC8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: #0808527a;
+}
